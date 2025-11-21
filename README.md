@@ -97,7 +97,6 @@ Frontend (React)  ──HTTP──►  Backend (Express)  ──API──►  Op
 ### Prerequisites
 - Node.js (v14+)
 - npm or yarn
-- OpenRouter API key ([Get it here](https://openrouter.ai/))
 
 ### Quick Start
 
@@ -114,7 +113,7 @@ npm install
 
 # Create .env file
 echo "PORT=5000" > .env
-echo "OPENROUTER_API_KEY=your_api_key_here" >> .env
+echo "API_KEY=your_api_key_here" >> .env
 echo "NODE_ENV=development" >> .env
 
 # Start server
@@ -128,10 +127,6 @@ cd ../frontend
 npm install
 npm start
 ```
-Frontend runs on `http://localhost:3000`
-
-4. **Access Application**
-Open `http://localhost:3000` in your browser
 
 ---
 
@@ -165,14 +160,6 @@ Open `http://localhost:3000` in your browser
 ## 📄 License
 
 This project is licensed under the **MIT License**.
-
-**You are free to:**
-- ✅ Use commercially
-- ✅ Modify and distribute
-- ✅ Use privately
-- ⚠️ No liability or warranty provided
-
-See the [LICENSE](LICENSE) file for full details.
 
 ---
 
