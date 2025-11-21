@@ -87,8 +87,7 @@ Frontend (React)  ──HTTP──►  Backend (Express)  ──API──►  Op
 - **Mongoose 8.0.3** - ODM for MongoDB
 
 ### AI Integration
-- **OpenRouter API** - AI gateway for multiple models
-- **Grok 4.1 (xAI)** - Primary AI model for idea generation
+- **AI API** - AI gateway for multiple models
 
 ---
 
